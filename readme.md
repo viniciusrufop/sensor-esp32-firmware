@@ -23,6 +23,6 @@ Instalar alguns pacotes
 `sudo apt install python3-serial`
 
 ### Lembrete
-Quando utilizar a conexão Wi-Fi do ESP32 a leitura analógica dos pinos ADC2 não funciona, é necessário utilizar os pinos ADC1.
+Quando utilizar a conexão Wi-Fi do ESP32 a leitura analógica dos pinos ADC2 não funcionam, é necessário utilizar os pinos ADC1.
 
 `ADC2 is used with WiFi. Therefor analogRead() on ADC2 pins fails. ADC1 channels are save to use ⇒ GPIO32, 33, 34, 35, 36, 39.`
